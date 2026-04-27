@@ -1,4 +1,6 @@
-const date = new Date()
-document.getElementById("year").innerText = date.getFullYear()
+const btn = document.querySelector('.menu-toggle')
+const navbtn = document.querySelector('.nav__list')
 
-// Write your Js code here 
+btn.addEventListener('click', () =>{
+    navbtn.classList.toggle('nav-btn')
+})

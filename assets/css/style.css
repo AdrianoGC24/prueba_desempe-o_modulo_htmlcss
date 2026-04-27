@@ -238,6 +238,7 @@ h1, h2, h3 {
     text-align: center;
 }
 
+
 @media (max-width: 768px){
     .media__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -252,6 +253,9 @@ h1, h2, h3 {
         color: var(--white);
         display: block;
     }
+    .nav-btn{
+    display: block;
+}
 }
 
 @media (max-width: 480px){
@@ -269,5 +273,8 @@ h1, h2, h3 {
         color: var(--white);
         display: block;
     }
+    .nav-btn{
+    display: block;
+}
 
 }
